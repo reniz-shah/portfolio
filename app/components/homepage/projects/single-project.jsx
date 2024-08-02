@@ -40,13 +40,6 @@ const SingleProject = ({ project }) => {
           {name}
         </h2>
         <div className="p-6">
-          <Image
-            src={image ? image?.src : placeholder}
-            alt={name}
-            width={1080}
-            height={720}
-            className="w-80 h-64 transition-opacity duration-[0.7s] delay-[0.3s] rounded-lg group-hover:opacity-0"
-          />
         </div>
         <div className="flex items-center justify-between w-full">
           <Link
