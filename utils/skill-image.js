@@ -12,6 +12,7 @@ import typescript from "/public/svg/skills/typescript.svg";
 import nodejs from "/public/svg/skills/nodejs.svg";
 import nestjs from "/public/svg/skills/nestjs.svg";
 import fastapi from "/public/svg/skills/fastapi.svg";
+import nextjs from "/public/svg/skills/nextJS.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -44,6 +45,8 @@ export const skillsImage = (skill) => {
       return nestjs;
     case "fastapi":
       return fastapi;
+    case "nextjs":
+      return nextjs;
     default:
       break;
   }
