@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: "Senior Software Engineer",
     company: "Surebright",
-    duration: "(Nov 2024 - Present)",
+    duration: "(Nov 2024 - Feb 2026)",
     description:
       "SureBright lets e-commerce merchants and companies embed \"Apple Care\" like product warranties and shipping insurance into their checkout flows in less than 10 minutes. As a Senior Software Engineer, I worked across the full stack, developing and maintaining both front-end and back-end applications. I utilized technologies such as React.js, Node.js, Java, and Python to create scalable and responsive applications. I collaborated with cross-functional teams to implement APIs, integrate third-party services, and ensure security, performance, and scalability",
   },
